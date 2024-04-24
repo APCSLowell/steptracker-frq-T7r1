@@ -3,12 +3,12 @@ public class StepTracker
 {
  private ArrayList<Integer>steps;
  private int min;
-public Steptracker(int st){
+public StepTracker(int st){
 steps=new ArrayList<Integer>();
  min=st;
  
 }
-public addDailySteps(int st){
+public void addDailySteps(int st){
  steps.add(st);
 }
 
