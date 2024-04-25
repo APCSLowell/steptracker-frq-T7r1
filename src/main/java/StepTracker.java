@@ -21,6 +21,8 @@ public void addDailySteps(int st){
  }
 
  public double averageSteps(){
+  if(steps.size()<1)
+   return 0;
   double tot=0;
   for(int i:steps)
    tot+=i;
